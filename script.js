@@ -54,8 +54,8 @@ function displayCards(activities, updatedTimeFrame) {
 }
 
 async function fetchData() {
-  const url = "http://127.0.0.1:5500/time-tracking-dashboard-main/data.json";
-
+  // const url = "http://127.0.0.1:5500/time-tracking-dashboard-main/data.json";
+  const url = "./data.json";
   fetch(url)
     .then((res) => {
       if (!res.ok) {
